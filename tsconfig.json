@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["ESNext", "DOM"],
+    "allowJs": false,
+    "alwaysStrict": true,
+    "allowUnreachableCode": false,
+    "noImplicitAny": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "declaration": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "moduleResolution": "Node"
+  },
+  "exclude": ["node_modules", "dist", "tests", "vite.config.ts"]
+}
